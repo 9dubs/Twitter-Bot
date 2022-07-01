@@ -3,10 +3,10 @@ import tweepy as tp
 import os
 import time
 
-api_key = '8IFmSFIMJeBVT5gSolE91KxcM'
-api_secret = 'Z6haGDO4tnNxzKeXMzhiIbqrUtLbRcKD4d3conxJjLET98mlhj'
-access_token = '1542132473060278272-wK0hkFp7nLLYyOrpjKJpOPDrkfumBD'
-access_secret = 'GKhiS4m094PbtlkRi05qcAQ3W5hnJlh9DEAil05kJCBrb'
+api_key = 'YOUR-API-KEY'
+api_secret = 'YOUR-API-SECRET'
+access_token = 'YOUR-ACCESS-TOKEN'
+access_secret = 'YOUR-ACCESS-TOKEN-SECRET'
 
 auth = tp.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_secret)
