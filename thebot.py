@@ -21,4 +21,5 @@ for meme in os.listdir('.'):
         time.sleep(10)
     else:
         pass
+    
 
